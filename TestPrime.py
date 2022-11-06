@@ -24,4 +24,4 @@ class TestPrime():
         assert result==True
 
 if __name__ == '__main__':
-    pytest.main(["-s","TestPrime.py"])
+    pytest.main(['-s', '-q', 'TestPrime.py', '--clean-alluredir', '--alluredir=allure-results'])
